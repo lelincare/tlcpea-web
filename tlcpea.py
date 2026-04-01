@@ -23,13 +23,21 @@ st.set_page_config(
 def inject_custom_css():
     st.markdown("""
         <style>
-        /* === 隱藏 Streamlit 預設的頂部選單與底部浮水印 === */
-        header {visibility: hidden;}
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&display=swap');
+        /* === 徹底隱藏 Streamlit 官方標誌與選單 === */
+        header {display: none !important;}
+        #MainMenu {display: none !important;}
+        footer {display: none !important;}
 
+        /* === 移除網頁最上方的預設空白佔位 === */
+        .block-container {
+            padding-top: 1.5rem !important;
+            padding-bottom: 1rem !important;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&display=swap');
+        
         /* 整體背景色 */
+        /* ... 後面維持您原本的程式碼 ... */
         .stApp {
             background-color: #FDFCF9;
         }

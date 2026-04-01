@@ -265,6 +265,14 @@ def main():
     發起人代表： 蔡孟儒
 </div>
     """, unsafe_allow_html=True)
+# === 4. 底部專屬版權宣告 ===
+    st.markdown("""
+        <div style="text-align: center; color: #8C6D4A; font-size: 14px; margin-top: 60px; padding-top: 20px; border-top: 1px solid #EAE0D5; font-family: 'Noto Serif TC', serif;">
+            &copy; 2026 臺南市長期照顧職能培力協會 籌備處 版權所有 <br>
+            <span style="font-size: 12px; color: #A9A9A9;">All Rights Reserved.</span>
+        </div>
+    """, unsafe_allow_html=True)
 
+# (這兩行是您原本程式碼最後的結尾，請保留不要動)
 if __name__ == "__main__":
     main()

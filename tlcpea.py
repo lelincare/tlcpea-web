@@ -180,7 +180,7 @@ def get_image_base64(path):
 def main():
     inject_custom_css()
 
-    logo_filename = "協會logo.PNG" 
+    logo_filename = "協會logo.png" 
     banner_filename = "banner.jpg" 
 
     try:

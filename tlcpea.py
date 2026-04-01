@@ -225,7 +225,7 @@ def main():
 
 <div class="section-card bg-earth">
     <span class="item-number">二、</span><strong>入會資格：</strong><br>
-    凡贊同本會宗旨，年滿十八歲，於臺南市從事長照相關工作或對此領域有興趣之民眾。
+    凡贊同本會宗旨，年滿十八歲，具備長期照顧服務相關證照或從事相關工作經歷者或對此領域有興趣之民眾。
 </div>
 
 <div class="section-card bg-white">

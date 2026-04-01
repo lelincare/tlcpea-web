@@ -23,6 +23,10 @@ st.set_page_config(
 def inject_custom_css():
     st.markdown("""
         <style>
+        /* === 隱藏 Streamlit 預設的頂部選單與底部浮水印 === */
+        header {visibility: hidden;}
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&display=swap');
 
         /* 整體背景色 */

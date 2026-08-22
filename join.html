@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>加入協會｜社團法人臺南市長期照顧職能培力協會</title>
+<meta name="description" content="填寫入會申請單，加入社團法人臺南市長期照顧職能培力協會，享有教育訓練課程優惠與培力資源。">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/logo-180.png">
+<link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="wrap nav">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-512.png" alt="社團法人臺南市長期照顧職能培力協會 標誌" class="brand-mark">
+      <span>社團法人臺南市長期照顧職能培力協會<small>TAINAN LONG-TERM CARE PROFESSIONAL EMPOWERMENT ASSOCIATION</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="開啟選單" aria-expanded="false"><span></span></button>
+    <div class="nav-links">
+      <a href="index.html">首頁</a>
+      <a href="about.html">關於協會</a>
+      <a href="courses.html">職能培力課程</a>
+      <a href="news.html">最新消息</a>
+      <a href="contact.html">聯絡我們</a>
+      <a href="join.html" class="nav-cta active">加入協會</a>
+    </div>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">首頁</a> ／ 加入協會</div>
+    <div class="eyebrow">JOIN US</div>
+    <h1>成為協會會員，一起培力臺南長照量能</h1>
+    <p>請參考下方會員類別與費用，填寫入會申請單，我們將由理事審查後與您聯繫。</p>
+  </div>
+  <svg class="machiba-divider" viewBox="0 0 1200 64" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,64 L0,40 C120,10 220,58 340,30 C460,4 540,50 660,24 C780,0 860,52 980,26 C1080,6 1140,40 1200,20 L1200,64 Z"/>
+  </svg>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">會員類別</div>
+      <h2>依章程第七條，會員類別與費用</h2>
+    </div>
+    <div class="reveal" style="overflow-x:auto">
+      <table class="board-table">
+        <thead>
+          <tr><th>會員類別</th><th>資格</th><th>入會費</th><th>常年會費</th><th>課程優惠</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>團體會員</td>
+            <td>贊同本會宗旨之公私立機構或團體</td>
+            <td>NT$3,000</td>
+            <td>NT$3,000</td>
+            <td>所屬員工課程 9 折</td>
+          </tr>
+          <tr>
+            <td>學員會員</td>
+            <td>參加本會教育訓練、講座或活動之學員</td>
+            <td>NT$500</td>
+            <td>NT$300</td>
+            <td>課程 85 折</td>
+          </tr>
+          <tr>
+            <td>贊助會員</td>
+            <td>贊同本會宗旨，願以捐款、資源或其他方式贊助本會運作之個人或團體</td>
+            <td colspan="2">依贊助意願，金額自訂</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="band-ink">
+  <svg class="machiba-divider flip" viewBox="0 0 1200 64" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,64 L0,40 C120,10 220,58 340,30 C460,4 540,50 660,24 C780,0 860,52 980,26 C1080,6 1140,40 1200,20 L1200,64 Z"/>
+  </svg>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">入會申請單</div>
+      <h2>請填寫以下資料</h2>
+      <p>提交後，協會將由理事審查並以電話或Email與您聯繫，完成後續入會與繳費手續。</p>
+    </div>
+
+    <form id="join-form" name="join" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="reveal" style="max-width:720px;background:var(--paper);padding:40px;border-radius:var(--radius)">
+      <input type="hidden" name="form-name" value="join">
+      <p style="position:absolute;left:-9999px" aria-hidden="true">
+        <label>若您是人類請勿填寫此欄 <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+      </p>
+
+      <div class="form-field">
+        <label for="member-type">申請會員類別 *</label>
+        <select id="member-type" name="member_type" required>
+          <option value="">請選擇</option>
+          <option value="團體會員">團體會員（入會費3,000元／常年會費3,000元）</option>
+          <option value="學員會員">學員會員（入會費500元／常年會費300元）</option>
+          <option value="贊助會員">贊助會員（贊助支持本會運作，金額自訂）</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="applicant-name">申請人 / 單位名稱 *</label>
+        <input id="applicant-name" name="applicant_name" type="text" required>
+      </div>
+
+      <div class="form-field">
+        <label for="id-number">統一編號 / 身分證字號 *</label>
+        <input id="id-number" name="id_number" type="text" required>
+      </div>
+
+      <div class="form-field">
+        <label for="birth-date">出生年月日</label>
+        <input id="birth-date" name="birth_date" type="date">
+      </div>
+
+      <div class="form-field">
+        <label>性別</label>
+        <div style="display:flex;gap:24px;margin-top:4px">
+          <label style="font-weight:400;display:flex;align-items:center;gap:6px;margin-bottom:0"><input type="radio" name="gender" value="男" style="width:auto"> 男</label>
+          <label style="font-weight:400;display:flex;align-items:center;gap:6px;margin-bottom:0"><input type="radio" name="gender" value="女" style="width:auto"> 女</label>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="education">最高學歷</label>
+        <input id="education" name="education" type="text">
+      </div>
+
+      <div class="form-field group-only-field">
+        <label for="rep-name">團體代表人姓名（團體會員適用，推派代表1人行使會員權利）</label>
+        <input id="rep-name" name="rep_name" type="text">
+      </div>
+
+      <div class="form-field">
+        <label for="phone">聯絡電話（公/宅或手機）*</label>
+        <input id="phone" name="phone" type="tel" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">Email *</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="address">通訊地址</label>
+        <input id="address" name="address" type="text">
+      </div>
+
+      <div class="form-field">
+        <label for="job">現職單位 / 職稱</label>
+        <input id="job" name="job" type="text" placeholder="例如：○○長照機構．照顧服務員">
+      </div>
+
+      <div class="form-field">
+        <label for="referrer">推薦理事（選填，若無可留空由理事會逕行審查）</label>
+        <input id="referrer" name="referrer" type="text">
+      </div>
+
+      <div class="form-field sponsor-only-field">
+        <label for="sponsor-amount">贊助金額（新臺幣）</label>
+        <input id="sponsor-amount" name="sponsor_amount" type="number" min="0" placeholder="請填寫贊助金額，例如：2000">
+      </div>
+
+      <div class="form-field" style="display:flex;align-items:flex-start;gap:10px">
+        <input id="privacy-agree" name="privacy_agree" type="checkbox" required style="width:auto;margin-top:4px">
+        <label for="privacy-agree" style="margin-bottom:0;font-weight:400">本人（本單位）同意本會於會務所需範圍內，蒐集、處理及利用本表所填之個人資料。</label>
+      </div>
+
+      <button type="submit" class="btn btn-gold">送出入會申請</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark-chip"><img src="assets/logo-512.png" alt="協會標誌" class="brand-mark" width="34"></span>
+        <div>
+          <h4>社團法人臺南市長期照顧職能培力協會</h4>
+          <p>以培訓、認證與交流三大主軸，支持臺南市長期照顧人力的專業成長。</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>網站導覽</h5>
+        <a href="about.html">關於協會</a>
+        <a href="courses.html">職能培力課程</a>
+        <a href="news.html">最新消息</a>
+        <a href="contact.html">聯絡我們</a>
+        <a href="join.html">加入協會</a>
+      </div>
+      <div class="footer-col">
+        <h5>聯絡資訊</h5>
+        <li>臺南市佳里區中興街22號</li>
+        <li>會務聯絡電話：0918-633886</li>
+        <li>Email：tlcpea.tw@gmail.com</li>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 社團法人臺南市長期照顧職能培力協會. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<audio id="bgm-audio" src="assets/bgm.mp3" loop preload="auto"></audio>
+<button id="music-toggle" class="music-toggle" type="button" aria-label="播放或暫停背景音樂" aria-pressed="false">
+  <svg class="icon-playing" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M9 18V6l10-2v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.8"/>
+    <circle cx="16" cy="16" r="3" stroke="currentColor" stroke-width="1.8"/>
+  </svg>
+  <svg class="icon-muted" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M9 18V6l10-2v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity=".4"/>
+    <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.8" opacity=".4"/>
+    <circle cx="16" cy="16" r="3" stroke="currentColor" stroke-width="1.8" opacity=".4"/>
+    <line x1="3" y1="3" x2="21" y2="21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  </svg>
+</button>
+
+<script src="js/main.js?v=9"></script>
+</body>
+</html>

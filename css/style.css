@@ -99,8 +99,8 @@ a:focus-visible, button:focus-visible {
   color: var(--ink);
 }
 .brand-mark {
-  width: 38px;
-  height: 38px;
+  width: 52px;
+  height: 52px;
   flex-shrink: 0;
   object-fit: contain;
   border-radius: 50%;

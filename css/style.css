@@ -79,8 +79,7 @@ a:focus-visible, button:focus-visible {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(243,241,233,.92);
-  backdrop-filter: blur(8px);
+  background: var(--paper);
   border-bottom: 1px solid rgba(22,48,43,.1);
 }
 .nav {
@@ -179,6 +178,7 @@ a:focus-visible, button:focus-visible {
   .nav-links {
     position: fixed;
     inset: 76px 0 0 0;
+    z-index: 150;
     background: var(--paper);
     flex-direction: column;
     align-items: stretch;

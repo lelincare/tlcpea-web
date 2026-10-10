@@ -698,3 +698,5 @@ section { padding: 96px 0; }
   .music-toggle { left: 14px; bottom: 14px; width: 46px; height: 46px; }
   .music-toggle svg { width: 19px; height: 19px; }
 }
+
+.band-ink .ladder-step h4{color:#20302d;}
